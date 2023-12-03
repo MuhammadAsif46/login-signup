@@ -11,7 +11,7 @@ body{
     /* border: 10px solid black; */
     color: white;
     position: absolute;
-    top: 17%;
+    top: 5%;
     left: 40%;
 }
 
@@ -60,6 +60,27 @@ body{
 }
 
 .signup-btn:hover{
+    opacity: 0.4;
+    color: purple;
+    background: white;
+}
+.signup-btn1{
+    color: white;
+    cursor: pointer;
+    outline: none;
+    margin: 0.8rem 0;
+    padding: 10px 21px;
+    border-radius: 10px;
+    border: 2px solid purple;
+    background: none;
+    font-size: 18px;
+    font-weight: bold;
+    position: absolute;
+    top: 87.5%;
+    left: 68%;
+}
+
+.signup-btn1:hover{
     opacity: 0.4;
     color: purple;
     background: white;

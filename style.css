@@ -65,3 +65,25 @@ body{
     background: white;
 }
 
+.btn1{
+    color: white;
+    cursor: pointer;
+    outline: none;
+    margin: 0.8rem 0;
+    padding: 10px 21px;
+    border-radius: 10px;
+    border: 2px solid purple;
+    background: none;
+    font-size: 18px;
+    font-weight: bold;
+    position: absolute;
+    bottom: 0;
+    left: 63%;
+}
+
+.btn1:hover{
+    opacity: 0.4;
+    color: purple;
+    background: white;
+}
+
