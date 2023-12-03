@@ -3,39 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="signup.css">
     <script src="https://kit.fontawesome.com/5c91370535.js" crossorigin="anonymous"></script>
     <title>Login-Signup</title>
 </head>
 <body>
-    <div class="container">
+    <div class="signup-container">
         <h1>Sign Up</h1>
-        <form action="">
-            <div class="box">
+        <form>
+            <div class="signup-box">
+                <i class="fa fa-user"></i>
+                <input type="text" name="firstName" id="firstName" placeholder="Enter Your firstName" required>
+            </div>
+            <div class="signup-box">
+                <i class="fa fa-user"></i>
+                <input type="text" name="lastName" id="lastName" placeholder="Enter Your lastName" required>
+            </div>
+            <div class="signup-box">
                 <i class="fa fa-envelope"></i>
-                <input type="email" name="email" id="email" placeholder="Enter Your Email" required>
+                <input type="email" name="email" id="email" placeholder="Enter Your email" minlength="8" required>
             </div>
-            <div class="box">
+            <div class="signup-box">
                 <i class="fa fa-key"></i>
                 <input type="password" name="password" id="password" placeholder="Enter Your Password" minlength="8" required>
             </div>
-            <div class="box">
+            <div class="signup-box">
                 <i class="fa fa-key"></i>
-                <input type="password" name="password" id="password" placeholder="Enter Your Password" minlength="8" required>
+                <input type="password" name="repeatPassword" id="repeatPassword" placeholder="Repeat Password" minlength="8" required>
             </div>
-            <div class="box">
-                <i class="fa fa-key"></i>
-                <input type="password" name="password" id="password" placeholder="Enter Your Password" minlength="8" required>
-            </div>
-            <div class="box">
-                <i class="fa fa-key"></i>
-                <input type="password" name="password" id="password" placeholder="Enter Your Password" minlength="8" required>
-            </div>
-            <div>
-                <button class="btn">Sign Up</button>
-                <button class="btn">Login</button>
-            </div>
+            
+            <button class="signup-btn">Sign Up</button>
         </form>
+        <a href="index.html"><button class="signup-btn"> Login</button></a>
     </div>
 
 
